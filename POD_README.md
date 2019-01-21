@@ -1,28 +1,53 @@
-# ${POD_NAME}
+## Introduction
+> 一句话介绍该组件。
 
-[![CI Status](https://img.shields.io/travis/${USER_NAME}/${REPO_NAME}.svg?style=flat)](https://travis-ci.org/${USER_NAME}/${REPO_NAME})
-[![Version](https://img.shields.io/cocoapods/v/${POD_NAME}.svg?style=flat)](https://cocoapods.org/pods/${POD_NAME})
-[![License](https://img.shields.io/cocoapods/l/${POD_NAME}.svg?style=flat)](https://cocoapods.org/pods/${POD_NAME})
-[![Platform](https://img.shields.io/cocoapods/p/${POD_NAME}.svg?style=flat)](https://cocoapods.org/pods/${POD_NAME})
+- Features
 
-## Get started
+  - xxx
+  - xxx
+  - xxx
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+- Requirements
 
-## Requirements
+  - iOS 8.0 or later
+
+  - Xcode 10.1 or later
+
+- Author
+
+  xxx, xxx@corp.netease.com
+
 
 ## Installation
 
-${POD_NAME} is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
 ```ruby
-pod '${POD_NAME}'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+target 'TargetName' do
+pod ${POD_NAME}
+end
 ```
 
-## Author
+Then, run the following command:
 
-${USER_NAME}, ${USER_EMAIL}
+```bash
+$ pod install
+```
+
+#### Subspecs
+None
+
+## Get Started
+
+### api example
+
+```objective-c
+demo api
+```
+
+## Notes
+
 
 ## License
 
